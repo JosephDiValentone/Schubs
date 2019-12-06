@@ -23,4 +23,3 @@ git clone master
 cd <file>
  java -cp target/classes <file name ie. SchubsH> <file locations or Glob>
  
-WARNING - DO NOT US THE LOWERCASE schubsH file. All files in the specified folders are to be used independantly
