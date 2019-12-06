@@ -9,6 +9,13 @@ import java.nio.file.StandardCopyOption;
 
 import org.junit.Test;
 
+/**
+ *  <i>SchubsHTest</i>. This class uses schubsH and Deschubs to compress a file or multiple files from the CLI
+ * 	it will then be decompressed using Deschubs in order to assert and compare
+ *  The class creates 4 random files and populates them with random strings
+ *  To run from the pom file:
+ *  mvn test
+ */
 public class schubsHTest{
 	final String location = "src"+File.separator+"files"+File.separator;
 	String ALLthethings = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"

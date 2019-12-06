@@ -7,9 +7,14 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+/**
+ *  <i>SchubsH</i>. This class uses Huffman algorithm to compress a file or multiple files from the CLI
+ *  The output must be a file location using relative file paths
+ *  To run from the pom file:
+ *  java -cp target/classes SchubsH <file location or glob>
+ */
 
-
-public class schubsH 
+public class SchubsH 
 {
 	//Size of the ASCII
 	private static final int R = 256; 

@@ -1,12 +1,12 @@
 BinaryStdIn.class
 MinPQ.class
 Deschubs$Node.class
+SchubsH.class
 StdIn.class
 Deschubs.class
-schubsH.class
+SchubsH$Node.class
 BinaryOut.class
 BinaryStdOut.class
-schubsH$Node.class
 StdOut.class
 BinaryIn.class
 MinPQ$HeapIterator.class
